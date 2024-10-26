@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 const Home = () => {
   const transition = { type: "spring", duration: 3 };
   return (
-    <div className="home">
+    <div className="home" id='home'>
       <div className="blur blur-h"></div>
       <div className="left-h">
         <Header />
